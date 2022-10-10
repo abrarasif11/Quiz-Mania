@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <header className="p-4 bg-slate-200 dark:text-gray-100">
+            <header className="p-4 bg-sky-200 dark:text-gray-100">
 	<div className="container flex justify-between h-16 mx-auto">
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 			<h2 className='text-4xl font-bold'>Quiz Times</h2>
+			<img className='ps-10 w-10' src="https://tse2.mm.bing.net/th?id=OIP.auVPY58zZxbU9hqfkmFb1gHaHa&pid=Api&P=0" alt="" />
 		</a>
 		<ul className="items-stretch hidden space-x-3 md:flex">
 			<li className="flex">
