@@ -7,7 +7,7 @@ const Topics = () => {
     // console.log(quizes);
     const quizData = quizes.data;
     return (
-        <div >
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 m-10'>
            {
             quizData.map(quiz => <Topic 
             key={quiz.id}
