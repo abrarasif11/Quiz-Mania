@@ -17,9 +17,9 @@ const Header = () => {
 			<li className="flex mt-4">
 			<Link className='font-poppins' to={'/topics'}>Topics</Link>
 			</li>
-			<li className="flex mt-4">
+			{/* <li className="flex mt-4">
 			<Link className='font-poppins' to={'/quiz'}>Quiz</Link>
-			</li>
+			</li> */}
 			<li className="flex mt-4">
 			<Link className='font-poppins' to={'/statics'}>Statics</Link>
 			</li>
