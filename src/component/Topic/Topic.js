@@ -1,6 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Topic = ({quiz}) => {
+	const navigate = useNavigate()
+	const handleAddQuiz = (id) =>{
+		navigate(`/quiz/${id}`)
+	}
     
     return (
         <div>
@@ -12,7 +17,7 @@ const Topic = ({quiz}) => {
 			<p className="text-xl font-semibold tracking-wide font-poppins">Total Quiz : {quiz.total}</p>
 			
 		</div>
-		<button type="button" className="flex items-center justify-center w-full p-3 font-xl tracking-wide rounded-md bg-violet-700 text-gray-100 font-poppins">Start Quiz</button>
+		<button onClick={() => {handleAddQuiz(quiz.id)}} type="button" className="flex items-center justify-center w-full p-3 font-xl tracking-wide rounded-md bg-violet-700 text-gray-100 font-poppins">Start Quiz</button>
 	</div>
 </div>
         </div>

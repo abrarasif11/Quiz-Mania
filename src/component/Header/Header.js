@@ -18,6 +18,9 @@ const Header = () => {
 			<Link className='font-poppins' to={'/topics'}>Topics</Link>
 			</li>
 			<li className="flex mt-4">
+			<Link className='font-poppins' to={'/quiz'}>Quiz</Link>
+			</li>
+			<li className="flex mt-4">
 			<Link className='font-poppins' to={'/statics'}>Statics</Link>
 			</li>
 			<li className="flex mt-4">
