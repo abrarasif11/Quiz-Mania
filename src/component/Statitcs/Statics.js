@@ -9,8 +9,8 @@ const Statics = () => {
     return (
         <div className='flex flex-col items-center justify-center mt-4'>
             <LineChart
-        width={500}
-        height={300}
+        width={450}
+        height={450}
         data={quizTypes}
         margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
       >
