@@ -11,5 +11,5 @@ You can see quiz topics here -> [Topics](https://resonant-donut-fd8de8.netlify.a
 Tailwind Component -> [MambaUI](https://www.mambaui.com/components)
 
 ## Other Resources
-Home Page Image -> [FreePic](https://www.freepik.com/)
+Home Page Image -> [FreePik](https://www.freepik.com/)
 
