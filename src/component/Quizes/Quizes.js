@@ -7,14 +7,14 @@ const Quizes = ({quiz}) => {
   const getans = (answer) => {
     console.log(getans);
     if (answer === quiz.correctAnswer) {
-      toast.success("It's Correct Answer!!", { autoClose: 750 });
+      toast.success("It's Correct Answer!!", { autoClose: 800 });
     } else {
-      toast.warning("It's Wrong Answer", { autoClose: 750 });
+      toast.warning("It's Wrong Answer", { autoClose: 800 });
     }
   }
   const [answer, displayAns] = useState();
     return (
-      <div className="flex flex-col justify-center items-center m-4 border-1 bg-slate-300 to-blue-500  shadow-lg dark:bg-gray-800 w-2/4 rounded-md text-black">
+      <div className="flex flex-col justify-center items-center m-4  bg-slate-300 to-blue-500  shadow-lg dark:bg-gray-800 w-2/4 rounded-md text-black">
       <div className="flex justify-around items-center">
         <h1 className="text-black font-poppins text-md font-medium m-2">{quiz.question}</h1>
         <FontAwesomeIcon
@@ -24,9 +24,9 @@ const Quizes = ({quiz}) => {
           onClick={() => displayAns(quiz.correctAnswer)}
         />
       </div>
-      <div className="grid grid-cols  gap-2 m-4">
+      <div className="grid grid-cols border-1 gap-2 m-4">
         <button
-          className=" border-black focus:bg-slate-100 font-poppins border-black rounded-md"
+          className="  focus:bg-slate-100 font-poppins border-black rounded-md"
           onClick={() => getans(quiz.options[0])}
         >
           1.{quiz.options[0]}
