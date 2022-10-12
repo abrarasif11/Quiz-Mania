@@ -20,13 +20,13 @@ const Footer = () => {
 		</div>
 		<ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
 			<li>
-				<a className='text-black font-poppins' rel="noopener noreferrer" href="#">Instagram</a>
+				<a  className='text-black font-poppins' rel="noopener noreferrer" href="https://www.instagram.com/mania.quiz/">Instagram</a>
 			</li>
 			<li>
-				<a className='text-black font-poppins' rel="noopener noreferrer" href="#">Facebook</a>
+				<a className='text-black font-poppins' rel="noopener noreferrer" href="https://www.facebook.com/quizmanianepal">Facebook</a>
 			</li>
 			<li>
-				<a className='text-black font-poppins' rel="noopener noreferrer" href="#">Twitter</a>
+				<a className='text-black font-poppins' rel="noopener noreferrer" href="https://twitter.com/thequizmania">Twitter</a>
 			</li>
 		</ul>
 	</div>

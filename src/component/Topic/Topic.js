@@ -17,7 +17,7 @@ const Topic = ({quiz}) => {
 			<p className="text-xl font-semibold tracking-wide font-poppins">Total Quiz : {quiz.total}</p>
 			
 		</div>
-		<button onClick={() => {handleAddQuiz(quiz.id)}} type="button" className="flex items-center justify-center w-full p-3 font-xl tracking-wide rounded-md bg-violet-700 text-gray-100 font-poppins">Start Quiz</button>
+		<button onClick={() => {handleAddQuiz(quiz.id)}} type="button" className="flex items-center justify-center w-full p-3 font-xl tracking-wide rounded-md bg-violet-700 hover:bg-indigo-500	 text-gray-100 font-poppins">Start Quiz</button>
 	</div>
 </div>
         </div>
